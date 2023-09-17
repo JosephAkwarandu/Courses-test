@@ -3,25 +3,25 @@ import { NavLink,Outlet } from 'react-router-dom';
 
 export default function Template() {
   return (
-    <div>
+    <div className='template'>
 
       <nav>
         <h1>Coursemine</h1>
-        <navbar>
+        <navbar className='navbar'>
           <NavLink to="/">
-            <button>Home</button>
+            Home
           </NavLink>
           <NavLink to="courses" >
-            <button>Courses</button>
+            Courses
           </NavLink>
           <NavLink to="contact" >
-            <button>Contact</button>
+            Contact
           </NavLink>
           <NavLink to="about" >
-            <button>About</button>
+            About
           </NavLink>
           <NavLink to="auth" >
-            <button>Signup</button>
+            Signup
           </NavLink>
         </navbar>
       </nav>
@@ -30,7 +30,9 @@ export default function Template() {
         <Outlet />
       </main>
 
-      <footer></footer>
+      <footer>
+        <div>hello man</div>
+      </footer>
 
     </div>
   )
