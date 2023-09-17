@@ -11,12 +11,12 @@ import Homesection6 from './homesections/homesection6';
 export default function Home() {
   return (
     <div className='homesections'>
-      <section> < Homesection1 /> </section>
-      <section> < Homesection2 /> </section>
-      <section> < Homesection3 /> </section>
-      <section> < Homesection4 /> </section>
-      <section> < Homesection5 /> </section>
-      <section> < Homesection6 /> </section>
+      <section className='homesection1'> < Homesection1 /> </section>
+      <section className='homesection2'> < Homesection2 /> </section>
+      <section className='homesection3'> < Homesection3 /> </section>
+      <section className='homesection4'> < Homesection4 /> </section>
+      <section className='homesection5'> < Homesection5 /> </section>
+      <section className='homesection6'> < Homesection6 /> </section>
     </div>
   )
 }

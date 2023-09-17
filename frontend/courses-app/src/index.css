@@ -7,10 +7,9 @@
 .template{
     display: flex;
     flex-direction: column;
-    height:2000;
     margin:6px 18px;
    /* background-color: blue;*/
-    gap: 60px;
+    gap: 25px;
 }
 
 nav{
@@ -18,6 +17,7 @@ display: flex;
 padding: 15px 40px;
 justify-content: space-between;
 text-align: center;
+margin-bottom: 25px;
 }
 nav h1{
     font-size:xx-large;
@@ -48,9 +48,11 @@ nav h1{
 }
 
 main{
-    margin: 0px 60px;
+    margin: 0px 28px;
     background-color: aqua;
-    height: 1000px;
+    height: 100%;
+    margin-left: 40px;
+    margin-right: 37px;
 }
 
 footer{
@@ -63,3 +65,34 @@ footer > *{
     margin: 8px 20px;
 }
 
+.homesections{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.homesection1{
+    background-color: grey;
+    height: 480px;
+}
+.homesection2{
+    background-color: green;
+    height: 840px;
+}
+.homesection3{
+    background-color: yellow;
+    height: 310px;
+}
+.homesection4{
+    background-color: pink;
+    height: 800px;
+}
+.homesection5{
+    background-color: grey;
+    height: 450px;
+}
+.homesection6{
+    background-color: indigo;
+    height: 220px;
+}
