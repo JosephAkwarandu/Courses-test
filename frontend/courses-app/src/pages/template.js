@@ -8,19 +8,19 @@ export default function Template() {
       <nav>
         <h1>Coursemine</h1>
         <navbar className='navbar'>
-          <NavLink to="/">
+          <NavLink exact activeclassName='homeLink' to="/">
             Home
           </NavLink>
-          <NavLink to="courses" >
+          <NavLink activeclassName='courseLink' to="courses" >
             Courses
           </NavLink>
-          <NavLink to="contact" >
+          <NavLink activeclassName='contactLink' to="contact" >
             Contact
           </NavLink>
-          <NavLink to="about" >
+          <NavLink activeclassName='aboutLink' to="about" >
             About
           </NavLink>
-          <NavLink to="auth" >
+          <NavLink activeclassName='authLink' to="auth" >
             Signup
           </NavLink>
         </navbar>

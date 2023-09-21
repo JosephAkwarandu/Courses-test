@@ -75,6 +75,7 @@ footer > *{
 .homesection1{
     background-color: grey;
     height: 480px;
+    display: flex;
 }
 .homesection2{
     background-color: green;

@@ -1,12 +1,13 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import {Icon} from '@iconify/react'
+import img1 from '../../images/img1.jpg'
 
 
 
 export default function Homesection1() {
   return (
-    <div className='homesection1Top'>
+    <div className='homesection1'>
       <div className='textSide'>
         <p><span>New</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
         <h1>Find your <span className='courseText'>Course</span> and get certified</h1>
@@ -17,7 +18,7 @@ export default function Homesection1() {
         </div>
       </div>
       <div className='imgSide'> 
-        <img src={'Courses-test/frontend/courses-app/public/img/2275fa0d8f9388f3dd38f75ab3656d40.jpg'} alt='headerPic'></img>
+        <img src={img1} alt='headerPic'></img>
       </div>
     </div>
   )
