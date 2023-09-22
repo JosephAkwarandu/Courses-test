@@ -49,7 +49,6 @@ nav h1{
 
 main{
     margin: 0px 28px;
-    background-color: aqua;
     height: 100%;
     margin-left: 40px;
     margin-right: 37px;
@@ -69,13 +68,39 @@ footer > *{
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-color: blueviolet;
 }
 
 .homesection1{
-    background-color: grey;
+    /*background-color: grey;*/
     height: 480px;
+}
+section .homesection1{
     display: flex;
+    justify-content: space-between;
+}
+.textSide{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;  
+}
+.buttonContainer{
+    display: flex;
+    gap: 18px;
+}
+.btn1 ,.btn2{
+    display: flex;
+    color: black;
+    background-color: aqua;
+    padding: 1.5% 3%;
+    text-align: center;
+    border-radius: 5px;
+}
+.imgSide{
+    display: flex;
+    background-color: aqua;
+    width: 450px;
+    height: 450px;
+    margin: 0px 40px;
 }
 .homesection2{
     background-color: green;
